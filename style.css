@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(45deg, #cbd992, #ffffff);
+}
+
+.text{
+    font-style: italic ;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.center {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); /* Центрирование */
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Отступ между картинкой и текстом */
+}
